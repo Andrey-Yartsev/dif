@@ -1,0 +1,136 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  color: #fff;
+  background: $header-color;
+
+}
+
+.nav {
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+}
+
+
+body {
+  background: #6c22bd;
+}
+
+.main-nav {
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+
+@media (min-width: 375px) {
+  .main-nav {
+    li {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 7px 0;
+    }
+    .svg-fill {
+      width: 24px !important;
+      height: 24px !important;
+      margin-right: 5px;
+    }
+    .svg-fill path {
+    }
+    li.router-link-active {
+      color: #ffcc00;
+      .svg-fill path {
+        color: #f00;
+      }
+    }
+    li:hover {
+      color: #fff;
+    }
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+
+    .navigation {
+      width: 260px;
+    }
+
+    .content {
+      width: 776px;
+      .body {
+        background: #fff;
+      }
+    }
+  }
+
+  .header {
+    .close {
+      display: none;
+    }
+  }
+
+  .title {
+    float: left;
+  }
+
+  .top-nav {
+    float: right;
+    li {
+      display: inline-block;
+    }
+  }
+
+  .body {
+    border-radius: 5px;
+  }
+
+  .body-text {
+    padding: 10px 20px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .top-message {
+    padding: 15px;
+    background: $light-gray;
+  }
+
+
+  .main {
+    background: #fff;
+  }
+
+  .main-nav {
+    li {
+      color: $text-color;
+      padding: 12px 0;
+
+      &.router-link-active {
+        color: $purple-blue;
+      }
+    }
+    .svg-fill {
+      width: 20px !important;
+      height: 20px !important;
+      margin-right: 5px;
+    }
+    .svg-fill path {
+      fill: #ccc;
+    }
+    li.router-link-active {
+      .svg-fill path {
+        fill: $purple-blue;
+      }
+    }
+  }
+
+
+
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: SFProDisplay, SFProText, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: $text-color;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.71);
+
+  & a {
+    color: #fff;
+  }
+}

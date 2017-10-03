@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/24/search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.34314575,16.6568542 C2.21895142,13.5326599 2.21895142,8.46734008 5.34314575,5.34314575 C8.46734008,2.21895142 13.5326599,2.21895142 16.6568542,5.34314575 C19.5415796,8.22787106 19.7626933,12.7675524 17.3201955,15.905982 L21.6066017,20.1923882 L20.1923882,21.6066017 L15.905982,17.3201955 C12.7675524,19.7626933 8.22787106,19.5415796 5.34314575,16.6568542 Z M15.2426407,15.2426407 C17.5857864,12.8994949 17.5857864,9.10050506 15.2426407,6.75735931 C12.8994949,4.41421356 9.10050506,4.41421356 6.75735931,6.75735931 C4.41421356,9.10050506 4.41421356,12.8994949 6.75735931,15.2426407 C9.10050506,17.5857864 12.8994949,17.5857864 15.2426407,15.2426407 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/24/search">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
